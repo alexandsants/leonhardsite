@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Leonhard</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <style>
+      p{
+        font-family: roboto;
+        color: white
+      }
+      html{
+        background-color: black;
+        margin-left: 100px;
+        margin-right: 100px;
+      }
+
+      .head{
+        display: flex;
+        height: 100px;
+        padding-top: 50px;
+        justify-content: space-between;
+        text-align: center;
+      }
+      .logo{
+        display: flex;
+        align-items: center;
+        margin: 40px;
+      }
+      
+      .name{
+        font-size: 28px;
+        font-weight: bold;
+
+        transition: font-size 0.5s;
+      }
+      .name:hover{
+        cursor: pointer;
+        font-size: 32px;
+      }
+      .buttonhead{
+        display: flex;
+        align-items: center;
+        margin: 40px;
+      }
+      .contatob, .blogb{
+        background: none;
+        border-radius: 50px;
+        border: none;
+        color: white;
+        font-size: 24px;
+        font-weight: bold;
+        padding: 15px;
+      }
+      .contatob{
+        width: 150px;
+        margin-left: 10px;
+      }
+      .blogb{
+        width: 100px;
+      }
+      .blogb:hover{
+        color: gainsboro;
+        font-size: 26px;
+        cursor: pointer;
+        border: 0.5px solid;
+      }
+      .contatob:hover{
+        color: gainsboro;
+        font-size: 26px;
+        cursor: pointer;
+        border: 0.5px solid;
+      }
+
+      .head2{
+        display: flex;
+        justify-content: left;
+      }
+      .textsubheaddiv{
+        margin-left: 40px;
+      }
+      .textsubhead{
+        font-family: "Times New Roman", Times, serif;
+        color: gainsboro;
+      }
+
+
+      .main{
+        height: 400px;
+        display: block;
+        justify-content: center;
+        align-items: right;
+
+      }
+      .title{
+        display: flex;
+        justify-content: Left;
+        margin-left: 40px;
+        margin-top: 60px;
+      }
+      .tittletext{
+        font-size: 20px;
+      }
+      .nameproject{
+        display: block;
+      }
+      .projetos{
+        display: block;
+        margin-left: 40px;
+
+      }
+      .nameproject{
+        font-size: 64px;
+        font-weight: bolder;
+      }
+      .more{
+        margin-left: 40px;
+        display: Flex;
+        align-items: end;
+        justify-content: left;
+        
+      }
+      .moretext{
+        font-family: "Times New Roman", Times, serif;
+        color: gainsboro;
+        font-weight: bold;
+      }
+      
+      .mainend{
+        height: 300px;
+      }
+
+      .end{
+        height: 600px;
+        display: block;
+      }
+      .endtext{
+        display: Flex;
+        justify-content: left;
+        margin-left: 40px;
+
+      }
+      .about{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* 3 colunas iguais */
+        gap: 20px; /* Espaçamento entre os cards */
+        margin-top: 20px;
+        margin-left: 40px;
+      }
+      .card1,.card2,.card3{
+        display: block;
+        justify-content: center;
+        text-align: left;
+        width: 300px;
+       
+      }
+      .cardtitle{
+        font-size: 36px;
+        font-weight: bold;
+        height: 70px;
+        width: 200px;
+        margin-bottom: 50px;
+      }
+      .cardtextcss{
+
+      }
+    </style>
+  </head>
+  <body>
+    <!--Head-->
+    <div class="head">
+      <div class="logo">
+        <p class="name">Leonhard</p>
+      </div>
+      <div class="buttonhead">
+        <button class="blogb">Blog</button>
+        <button class="contatob">Contato</button>
+      </div>
+    </div>
+
+    <div class="head2">
+      <div class="textsubheaddiv">
+        <p class="textsubhead">Seu site profissional do zero: design, desenvolvimento e publicação.</p>
+      </div>
+    </div>
+
+    <!--Main-->
+    <div class="main">
+      <div class="title">
+        <p class="tittletext">Projetos</p>
+      </div>
+      <div class="projetos">
+        <p class="nameproject">Rocca</p>
+        <p class="nameproject">Cellu</p>
+        <p class="nameproject">Zasp</p>
+      </div>
+      <div class="more">
+        <p class="moretext">Mais em breve...</p>
+      </div>
+    </div>
+
+    <div class="mainend"></div>
+
+    <!--End-->
+    <div class="end">
+      <div class="endtext">
+        <p class="endtexthead">O que nós fazemos</p>
+      </div>
+      <div class="about">
+        <div class="card1">
+          <div class="cardtitle">
+            <p class="cardtitlecss">Experiência Mobile</p>
+          </div>
+          <div class="cardtext">
+            <p class="cardtextcss">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release</p>
+          </div>
+        </div>
+        <div class="card2">
+          <div class="cardtitle">
+            <p class="cardtitlecss">Experiência Web</p>
+          </div>
+          <div class="cardtext">
+            <p  class="cardtextcss">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release
+            </p>
+          </div>
+        </div>
+        <div class="card3">
+          <div class="cardtitle">
+            <p class="cardtitlecss">Manutenção & Melhorias</p>
+          </div>
+          <div class="cardtext">
+            <p class="cardtextcss">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+  </body>
+</html>
